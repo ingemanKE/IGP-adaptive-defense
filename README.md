@@ -1,2 +1,10 @@
 # IGP-adaptive-defense
-Analyzing coexistence and stability of intra-guild predation community with predator-specific, adaptive defense by basal resource
+## Analyzing coexistence and stability of intra-guild predation community with predator-specific, adaptive defense by basal resource
+
+Understanding coexistence within community modules such as intraguild predation (IGP), where an omnivore both preys on and competes with an intermediate consumer for a shared resource, has provided insight into the mechanisms that promote persistence of complex food webs. Adaptive, predator-specific defense has been shown theoretically to enhance coexistence of IGP communities when employed by shared prey. Yet to date, all such theory has assumed that prey have accurate perception of predation risk and appropriate antipredator responses, assumptions that may not be justified when considering a novel predator. 
+
+We therefore consider the effects of an introduced predator on IGP coexistence, describing two invasion scenarios: suboptimal defense, whereby a similar invader elicits an ineffective antipredator response; and naïveté toward an unfamiliar invader, for which prey fail to accurately estimate predation risk. We examine predictions for native predator persistence across gradients of enrichment and defense costs using invasibility analysis methods. 
+
+The model predicts that predator novelty can weaken the effect of adaptive defense, causing exclusion of native predators that would persist in the absence of novelty. Coexistence is predicted to be more sensitive to the effects of suboptimal defense compared to naïveté and differentially leads to exclusion of native predators in highly productive environments and when defense costs are low.Moderate novelty of the omnivore can increase resource density via a trophic cascade, while consumer novelty can either lead to omnivore exclusion or facilitate three-species coexistence by providing a subsidy to the otherwise excluded native omnivore. 
+
+Our results suggest that models of adaptive defense are sensitive to assumptions regarding predator-prey eco-evolutionary experience and that predator novelty has significant implications for food web dynamics.
