@@ -1,0 +1,11 @@
+igpO = Graphics[{{{GrayLevel[0], Thickness[0.05], 
+        Line[{{0.1, 0.1}, {0.6, 0.6}}], Line[{{0.6, 0.6}, {0, 1}}], 
+        Line[{{0.1, 0.1}, {0, 1}}]}}, 
+      {{GrayLevel[0.5], Disk[{0.1, 0.1}, 0.2]}, {GrayLevel[0.5], 
+        Disk[{0.6, 0.6}, 0.2]}, {GrayLevel[0.5], Disk[{0, 1.}, 0.2]}, 
+       {RGBColor[1, 0, 0], Thickness[0.04], Circle[{0, 1.}, 0.18]}, 
+       {GrayLevel[0], Thickness[0.01], Circle[{0.1, 0.1}, 0.2]}, 
+       {GrayLevel[0], Thickness[0.01], Circle[{0.6, 0.6}, 0.2]}}, 
+      {Text[Style["R", 16, GrayLevel[0], Bold], {0.1, 0.1}], 
+       Text[Style["N", 16, GrayLevel[0], Bold], {0.6, 0.6}], 
+       Text[Style["P", 16, GrayLevel[0], Bold], {0, 1}]}}, {}]

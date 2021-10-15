@@ -1,0 +1,36 @@
+Fig5eReg = Graphics[{{}, {}}, {DisplayFunction -> Identity, 
+      PlotRangePadding -> {{0, 0}, {0, 0}}, PlotRangeClipping -> True, 
+      ImagePadding -> All, DisplayFunction -> Identity, AspectRatio -> 1, 
+      Axes -> {False, False}, AxesLabel -> {None, None}, 
+      AxesOrigin -> {Automatic, Automatic}, DisplayFunction :> Identity, 
+      Frame -> {{True, True}, {True, True}}, FrameLabel -> 
+       {{None, None}, {None, None}}, FrameTicks -> {{Automatic, Automatic}, 
+        {Automatic, Automatic}}, GridLinesStyle -> 
+       Directive[GrayLevel[0.5, 0.4]], Method -> 
+       {"DefaultGraphicsInteraction" -> {"Version" -> 1.2, 
+          "TrackMousePosition" -> {True, False}, "Effects" -> 
+           {"Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> 
+             {"ratio" -> 2}, "Droplines" -> {"freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "ScalingFunctions" -> None, "TransparentPolygonMesh" -> True, 
+        "AxesInFront" -> True}, PlotRange -> {{0, 5}, {0, 2}}, 
+      PlotRangeClipping -> True, PlotRangePadding -> {Automatic, Automatic}, 
+      Ticks -> {Automatic, Automatic}}]
+Fig5eReg = Graphics[{{}, {}}, {DisplayFunction -> Identity, 
+      PlotRangePadding -> {{0, 0}, {0, 0}}, PlotRangeClipping -> True, 
+      ImagePadding -> All, DisplayFunction -> Identity, AspectRatio -> 1, 
+      Axes -> {False, False}, AxesLabel -> {None, None}, 
+      AxesOrigin -> {Automatic, Automatic}, DisplayFunction :> Identity, 
+      Frame -> {{True, True}, {True, True}}, FrameLabel -> 
+       {{None, None}, {None, None}}, FrameTicks -> {{Automatic, Automatic}, 
+        {Automatic, Automatic}}, GridLinesStyle -> 
+       Directive[GrayLevel[0.5, 0.4]], Method -> 
+       {"DefaultGraphicsInteraction" -> {"Version" -> 1.2, 
+          "TrackMousePosition" -> {True, False}, "Effects" -> 
+           {"Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> 
+             {"ratio" -> 2}, "Droplines" -> {"freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "ScalingFunctions" -> None, "TransparentPolygonMesh" -> True, 
+        "AxesInFront" -> True}, PlotRange -> {{0, 5}, {0, 2}}, 
+      PlotRangeClipping -> True, PlotRangePadding -> {Automatic, Automatic}, 
+      Ticks -> {Automatic, Automatic}}]
