@@ -1,0 +1,51 @@
+Nakazawa
+Nak =             {r → 1., k → 5., c0 → 0.25, fP → 0.5, fΝ → 0.5, aPR → 0.25, aPΝ → 1., aΝR → 1., bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1.};
+
+TopP subopt
+TopPsub.pars =             {r → 1, k → 6, c0 → 0.2, fΝ → 0.5, aPR → 0.25, aPΝ → 1, aΝR → 1, bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1, ϕ → 1};
+
+parsCoexH = {r → 1, k → 5, c0 → 0.25, fΝ → 0.8, aPR → 0.9, aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.2, v → 1, ϕ → 1};
+
+
+
+c0parsRN = Join[Delete[parsCoexH, Position[Keys[parsCoexH], c0 k aPΝ aΝR bΝR]], {k → 1, aPΝ → 1, aΝR → 1.5, bΝR → 0.8}];
+
+parsCoexc0L = Join[Delete[parsCoexM, Position[Keys[parsCoexM], c0 k]], {k → 6, c0 → 0.1}];
+
+TopP naivite
+
+TopPnai.pars =            {r → 1, k → 5, c0 → 0.2, fP → 0.5, fΝ → 0.5, aPR → 0.25, aPΝ → 1, aΝR → 1, bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1, ρ → 1};parsCoex =  {r → 1, k → 5, c0 → 0.25, fΝ → 0.8, fP → 0.8, aPR → 0.9, aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.2, v → 1, ρ → 1};
+
+
+~~~~~~~~~
+
+Nakakaz.pars  =            {r → 1, k → 5,  c0 → 0.25, fP → 0.5, fΝ → 0.5, aPR → 0.25, aPΝ → 1, aΝR → 1, bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1.};
+TopPsub.pars =             {r → 1, k → 5, c0 → 0.2,                     fΝ → 0.5, aPR → 0.25, aPΝ → 1, aΝR → 1, bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1, ϕ → 1};
+TopPnai.pars =              {r → 1, k → 5, c0 → 0.2,    fP → 0.5, fΝ → 0.5, aPR → 0.25, aPΝ → 1, aΝR → 1, bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1, ρ → 1};
+
+Nakakaz.pars  =             {r → 1, k → 5, c0 → 0.25, fP → 0.5, fΝ → 0.5, aPR → 0.25, aPΝ → 1.,    aΝR → 1.,   bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1.};
+TopPsub.parsCoexH = {r → 1, k → 5, c0 → 0.25,                  fΝ → 0.8, aPR → 0.9,    aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.2, v → 1, ϕ → 1};
+TopPsub.parsstabϕ =    {r → 0.9, k → 5, c0 → 0.1, fP → 0.7,  fΝ → 0.7, aPR → 0.5, aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.6, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.25, v → 1};
+TopPnai.parsStabρ =    {r → 0.9, k → 5, c0 → 0.1, fΝ → 0.7, fP → 0.7, aPR → 0.5, aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.6, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.25, v → 1};
+TopPnai.parsCoexH =   {r → 1, k → 5, c0 → 0.25, fP → 0.8, fΝ → 0.8, aPR → 0.9,    aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.2, v → 1, ρ → 1};
+
+~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+Nsub.pars =               {r → 1, k → 5, c0 → 0.25, fP → 0.5,                   aPR → 0.25, aPΝ → 1, aΝR → 1, bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1, ϕ → 1};
+Nnaiv.pars =              {r → 1, k → 5, c0 → 0.2,   fP → 0.5, fΝ → 0.5, aPR → 0.25, aPΝ → 1, aΝR → 1, bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1, ρ → 1};
+Nsub.parsCoexH =     {r → 1, k → 5, c0 → 0.25, fP → 0.8,                  aPR → 0.9, aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.2, v → 1, ϕ → 1};
+Nnaiv.parsCoeH =    {r → 1, k → 5, c0 → 0.25, fP → 0.8, fΝ → 0.8, aPR → 0.9, aPΝ → 1.2, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.2, v → 1, ρ → 1};
+Nsub.parsExcH =     {r → 1, k → 2.5, c0 → 0.4,                   fP → 0.8, aPR → 0.9, aPΝ → 0.4, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.1, v → 1, ϕ → 1};
+Nnaiv.parsExcH =    {r → 1, k → 2.5, c0 → 0.4, fP → 0.8,  fΝ → 0.8, aPR → 0.9, aPΝ → 0.4, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.7, bPR → 0.5, mP → 0.5, mΝ → 0.1, v → 1, ρ → 1};
+Nsub.parsFacP =     {r → 1, k → 0.7, c0 → 0.1, fP → 0.8, aPR → 0.9, aPΝ → .9, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.9, bPR → 0.5, mP → 0.5, mΝ → 0.05, v → 1, ϕ → 1};
+Nnaiv.parsFacP =    {r → 1, k → 0.7, c0 → 0.1, fP → 0.8, aPR → 0.9, aPΝ → .9, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.9, bPR → 0.5, mP → 0.5, mΝ → 0.05, v → 1, ρ → 1};
+Nsub.parsFacN =     {r → 1, k → 0.28, c0 → 0.125, fP → 0.8, aPR → 0.9, aPΝ → 1.7, aΝR → 0.8, bPΝ → 0.5, bΝR → 1, bPR → 0.5, mP → 0.35, mΝ → 0.1, v → 1, ϕ → 1};
+Nsub.parsGoodH =  {r → 1, k → 3, c0 → 0.1, fP → 0.6,                    aPR → 1,   aPΝ → 0.8, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.9, bPR → 0.4, mP → 0.55, mΝ → 0.1, v → 1, ϕ → 1};
+Nnaiv.parsGoodH = {r → 1, k → 3, c0 → 0.1, fP → 0.6,  fΝ → 0.6,  aPR → 1,   aPΝ → 0.8, aΝR → 0.8, bPΝ → 0.5, bΝR → 0.9, bPR → 0.4, mP → 0.55, mΝ → 0.1, v → 1, ϕ → 1};
+
+
+
+
+~~~~~~~~~~~~~~~
+Nakakaz.pars  =             {r → 1, k → 5, c0 → 0.25, fP → 0.5, fΝ → 0.5, aPR → 0.25, aPΝ → 1.,    aΝR → 1.,   bPΝ → 0.5, bΝR → 0.5, bPR → 0.5, mP → 0.5, mΝ → 0.5, v → 1.};
