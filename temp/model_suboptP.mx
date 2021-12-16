@@ -1,0 +1,34 @@
+dRdt = R*((1 - c0*(eP + e\[CapitalNu]))*r - R/k - 
+      a\[CapitalNu]R*(1 - e\[CapitalNu]*f\[CapitalNu])*\[CapitalNu] - 
+      aPR*P*(1 - eP*f\[CapitalNu]*\[Phi]))
+ 
+d\[CapitalNu]dt = (-m\[CapitalNu] - aP\[CapitalNu]*P + 
+      a\[CapitalNu]R*b\[CapitalNu]R*(1 - e\[CapitalNu]*f\[CapitalNu])*R)*
+     \[CapitalNu]
+ 
+dPdt = P*(-mP + aP\[CapitalNu]*bP\[CapitalNu]*\[CapitalNu] + 
+      aPR*bPR*R*(1 - eP*f\[CapitalNu]*\[Phi]))
+ 
+de\[CapitalNu]dt = e\[CapitalNu]*v*(c0*(-1 + eP + e\[CapitalNu])*r - 
+      f\[CapitalNu]*(a\[CapitalNu]R*(-1 + e\[CapitalNu])*\[CapitalNu] + 
+        aPR*eP*P*\[Phi]))
+ 
+dePdt = eP*v*(c0*(-1 + eP + e\[CapitalNu])*r - f\[CapitalNu]*
+       (a\[CapitalNu]R*e\[CapitalNu]*\[CapitalNu] + aPR*(-1 + eP)*P*\[Phi]))
+dRdt = R*((1 - c0*(eP + e\[CapitalNu]))*r - R/k - 
+      a\[CapitalNu]R*(1 - e\[CapitalNu]*f\[CapitalNu])*\[CapitalNu] - 
+      aPR*P*(1 - eP*f\[CapitalNu]*\[Phi]))
+ 
+d\[CapitalNu]dt = (-m\[CapitalNu] - aP\[CapitalNu]*P + 
+      a\[CapitalNu]R*b\[CapitalNu]R*(1 - e\[CapitalNu]*f\[CapitalNu])*R)*
+     \[CapitalNu]
+ 
+dPdt = P*(-mP + aP\[CapitalNu]*bP\[CapitalNu]*\[CapitalNu] + 
+      aPR*bPR*R*(1 - eP*f\[CapitalNu]*\[Phi]))
+ 
+de\[CapitalNu]dt = e\[CapitalNu]*v*(c0*(-1 + eP + e\[CapitalNu])*r - 
+      f\[CapitalNu]*(a\[CapitalNu]R*(-1 + e\[CapitalNu])*\[CapitalNu] + 
+        aPR*eP*P*\[Phi]))
+ 
+dePdt = eP*v*(c0*(-1 + eP + e\[CapitalNu])*r - f\[CapitalNu]*
+       (a\[CapitalNu]R*e\[CapitalNu]*\[CapitalNu] + aPR*(-1 + eP)*P*\[Phi]))

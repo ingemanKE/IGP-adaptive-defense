@@ -1,0 +1,26 @@
+J = {{r - c0*(eP + e\[CapitalNu])*r - (2*R)/k + a\[CapitalNu]R*
+        (-1 + e\[CapitalNu]*f\[CapitalNu])*\[CapitalNu] + 
+       aPR*P*(-1 + eP*f\[CapitalNu]*\[Phi]), a\[CapitalNu]R*
+       (-1 + e\[CapitalNu]*f\[CapitalNu])*R, 
+      R*(-(c0*r) + a\[CapitalNu]R*f\[CapitalNu]*\[CapitalNu]), 
+      aPR*R*(-1 + eP*f\[CapitalNu]*\[Phi]), 
+      R*(-(c0*r) + aPR*f\[CapitalNu]*P*\[Phi])}, 
+     {a\[CapitalNu]R*b\[CapitalNu]R*(1 - e\[CapitalNu]*f\[CapitalNu])*
+       \[CapitalNu], -m\[CapitalNu] - aP\[CapitalNu]*P + 
+       a\[CapitalNu]R*b\[CapitalNu]R*(1 - e\[CapitalNu]*f\[CapitalNu])*R, 
+      -(a\[CapitalNu]R*b\[CapitalNu]R*f\[CapitalNu]*R*\[CapitalNu]), 
+      -(aP\[CapitalNu]*\[CapitalNu]), 0}, 
+     {0, -(a\[CapitalNu]R*(-1 + e\[CapitalNu])*e\[CapitalNu]*f\[CapitalNu]*
+        v), v*(c0*(-1 + eP + 2*e\[CapitalNu])*r + a\[CapitalNu]R*
+         f\[CapitalNu]*(\[CapitalNu] - 2*e\[CapitalNu]*\[CapitalNu]) - 
+        aPR*eP*f\[CapitalNu]*P*\[Phi]), -(aPR*eP*e\[CapitalNu]*f\[CapitalNu]*
+        v*\[Phi]), e\[CapitalNu]*v*(c0*r - aPR*f\[CapitalNu]*P*\[Phi])}, 
+     {aPR*bPR*P*(1 - eP*f\[CapitalNu]*\[Phi]), aP\[CapitalNu]*bP\[CapitalNu]*
+       P, 0, -mP + aP\[CapitalNu]*bP\[CapitalNu]*\[CapitalNu] + 
+       aPR*bPR*R*(1 - eP*f\[CapitalNu]*\[Phi]), 
+      -(aPR*bPR*f\[CapitalNu]*P*R*\[Phi])}, 
+     {0, -(a\[CapitalNu]R*eP*e\[CapitalNu]*f\[CapitalNu]*v), 
+      eP*v*(c0*r - a\[CapitalNu]R*f\[CapitalNu]*\[CapitalNu]), 
+      -(aPR*(-1 + eP)*eP*f\[CapitalNu]*v*\[Phi]), 
+      v*(c0*(-1 + 2*eP + e\[CapitalNu])*r - a\[CapitalNu]R*e\[CapitalNu]*
+         f\[CapitalNu]*\[CapitalNu] + aPR*(1 - 2*eP)*f\[CapitalNu]*P*\[Phi])}}

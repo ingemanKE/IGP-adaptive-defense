@@ -583,3 +583,4 @@ Fig2dReg = Graphics[{GraphicsComplex[{{3.1578949307479225,
         "AxesInFront" -> True}, PlotRange -> {{0, 10}, {0, 4}}, 
       PlotRangeClipping -> True, PlotRangePadding -> {Automatic, Automatic}, 
       Ticks -> {Automatic, Automatic}}]
+

@@ -1,0 +1,44 @@
+J = {{aPR*(-1 + eP*fP)*P + r - c0*(eP + e\[CapitalNu])*r - (2*R)/k + 
+       a\[CapitalNu]R*\[CapitalNu]*(-1 + e\[CapitalNu]*fP*\[Phi]), 
+      a\[CapitalNu]R*R*(-1 + e\[CapitalNu]*fP*\[Phi]), 
+      R*(-(c0*r) + a\[CapitalNu]R*fP*\[CapitalNu]*\[Phi]), 
+      aPR*(-1 + eP*fP)*R, (aPR*fP*P - c0*r)*R}, 
+     {a\[CapitalNu]R*b\[CapitalNu]R*\[CapitalNu]*
+       (1 - e\[CapitalNu]*fP*\[Phi]), -m\[CapitalNu] - aP\[CapitalNu]*P + 
+       a\[CapitalNu]R*b\[CapitalNu]R*R*(1 - e\[CapitalNu]*fP*\[Phi]), 
+      -(a\[CapitalNu]R*b\[CapitalNu]R*fP*R*\[CapitalNu]*\[Phi]), 
+      -(aP\[CapitalNu]*\[CapitalNu]), 0}, 
+     {0, -(a\[CapitalNu]R*(-1 + e\[CapitalNu])*e\[CapitalNu]*fP*v*\[Phi]), 
+      v*(-(aPR*eP*fP*P) + c0*(-1 + eP + 2*e\[CapitalNu])*r + 
+        a\[CapitalNu]R*(1 - 2*e\[CapitalNu])*fP*\[CapitalNu]*\[Phi]), 
+      -(aPR*eP*e\[CapitalNu]*fP*v), e\[CapitalNu]*(-(aPR*fP*P) + c0*r)*v}, 
+     {aPR*bPR*(1 - eP*fP)*P, aP\[CapitalNu]*bP\[CapitalNu]*P, 0, 
+      -mP + aPR*bPR*(1 - eP*fP)*R + aP\[CapitalNu]*bP\[CapitalNu]*
+        \[CapitalNu], -(aPR*bPR*fP*P*R)}, 
+     {0, -(a\[CapitalNu]R*eP*e\[CapitalNu]*fP*v*\[Phi]), 
+      eP*v*(c0*r - a\[CapitalNu]R*fP*\[CapitalNu]*\[Phi]), 
+      -(aPR*(-1 + eP)*eP*fP*v), v*(aPR*(1 - 2*eP)*fP*P + 
+        c0*(-1 + 2*eP + e\[CapitalNu])*r - a\[CapitalNu]R*e\[CapitalNu]*fP*
+         \[CapitalNu]*\[Phi])}}
+J = {{aPR*(-1 + eP*fP)*P + r - c0*(eP + e\[CapitalNu])*r - (2*R)/k + 
+       a\[CapitalNu]R*\[CapitalNu]*(-1 + e\[CapitalNu]*fP*\[Phi]), 
+      a\[CapitalNu]R*R*(-1 + e\[CapitalNu]*fP*\[Phi]), 
+      R*(-(c0*r) + a\[CapitalNu]R*fP*\[CapitalNu]*\[Phi]), 
+      aPR*(-1 + eP*fP)*R, (aPR*fP*P - c0*r)*R}, 
+     {a\[CapitalNu]R*b\[CapitalNu]R*\[CapitalNu]*
+       (1 - e\[CapitalNu]*fP*\[Phi]), -m\[CapitalNu] - aP\[CapitalNu]*P + 
+       a\[CapitalNu]R*b\[CapitalNu]R*R*(1 - e\[CapitalNu]*fP*\[Phi]), 
+      -(a\[CapitalNu]R*b\[CapitalNu]R*fP*R*\[CapitalNu]*\[Phi]), 
+      -(aP\[CapitalNu]*\[CapitalNu]), 0}, 
+     {0, -(a\[CapitalNu]R*(-1 + e\[CapitalNu])*e\[CapitalNu]*fP*v*\[Phi]), 
+      v*(-(aPR*eP*fP*P) + c0*(-1 + eP + 2*e\[CapitalNu])*r + 
+        a\[CapitalNu]R*(1 - 2*e\[CapitalNu])*fP*\[CapitalNu]*\[Phi]), 
+      -(aPR*eP*e\[CapitalNu]*fP*v), e\[CapitalNu]*(-(aPR*fP*P) + c0*r)*v}, 
+     {aPR*bPR*(1 - eP*fP)*P, aP\[CapitalNu]*bP\[CapitalNu]*P, 0, 
+      -mP + aPR*bPR*(1 - eP*fP)*R + aP\[CapitalNu]*bP\[CapitalNu]*
+        \[CapitalNu], -(aPR*bPR*fP*P*R)}, 
+     {0, -(a\[CapitalNu]R*eP*e\[CapitalNu]*fP*v*\[Phi]), 
+      eP*v*(c0*r - a\[CapitalNu]R*fP*\[CapitalNu]*\[Phi]), 
+      -(aPR*(-1 + eP)*eP*fP*v), v*(aPR*(1 - 2*eP)*fP*P + 
+        c0*(-1 + 2*eP + e\[CapitalNu])*r - a\[CapitalNu]R*e\[CapitalNu]*fP*
+         \[CapitalNu]*\[Phi])}}

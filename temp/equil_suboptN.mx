@@ -1,0 +1,338 @@
+equil = {{R -> 0, \[CapitalNu] -> 0, P -> 0, eP -> 1 - e\[CapitalNu]}, 
+     {R -> -((-1 + c0)*k*r), \[CapitalNu] -> 0, P -> 0, 
+      eP -> 1 - e\[CapitalNu]}, {R -> mP/(aPR*bPR), \[CapitalNu] -> 0, 
+      P -> (-(mP/(bPR*k)) + aPR*r)/aPR^2, e\[CapitalNu] -> 0, eP -> 0}, 
+     {R -> mP/(aPR*bPR), \[CapitalNu] -> 0, 
+      P -> -((mP + aPR*bPR*(-1 + c0)*k*r)/(aPR^2*bPR*k)), e\[CapitalNu] -> 1, 
+      eP -> 0}, {R -> mP/(aPR*bPR - aPR*bPR*fP), \[CapitalNu] -> 0, 
+      P -> (-mP + aPR*bPR*(-1 + c0)*(-1 + fP)*k*r)/(aPR^2*bPR*(-1 + fP)^2*k), 
+      e\[CapitalNu] -> 0, eP -> 1}, {R -> -((-1 + c0)*k*r), 
+      \[CapitalNu] -> 0, P -> 0, e\[CapitalNu] -> 1 - fP^(-1) + 
+        mP/(aPR*bPR*fP*k*r - aPR*bPR*c0*fP*k*r), 
+      eP -> (1 - mP/(aPR*bPR*k*r - aPR*bPR*c0*k*r))/fP}, 
+     {R -> ((-c0 + fP)*k*r)/fP, \[CapitalNu] -> 0, P -> (c0*r)/(aPR*fP), 
+      e\[CapitalNu] -> 0, eP -> fP^(-1) + mP/(aPR*bPR*c0*k*r - 
+          aPR*bPR*fP*k*r)}, {R -> k*r, \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 0}, 
+     {R -> -((k*(a\[CapitalNu]R*mP + aPR*bP\[CapitalNu]*(-1 + fP)*
+            m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*(-1 + c0)*r))/
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + fP)*k)), 
+      \[CapitalNu] -> (-(aPR*(-1 + fP)*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP + 
+            aPR*bPR*(-1 + fP)*m\[CapitalNu])) + aP\[CapitalNu]*
+          (mP + aPR*bPR*(-1 + c0 + fP - c0*fP)*k*r))/(aP\[CapitalNu]*
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + fP)*k)), 
+      P -> -((aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu] + 
+          a\[CapitalNu]R*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP + 
+            aPR*bPR*(-1 + fP)*m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*
+             b\[CapitalNu]R*(-1 + c0)*r))/(aP\[CapitalNu]*
+          (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+            (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + fP)*k))), 
+      e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> (aPR*fP*m\[CapitalNu] + aP\[CapitalNu]*c0*r)/
+        (aPR*a\[CapitalNu]R*b\[CapitalNu]R*fP), \[CapitalNu] -> 
+       (-(aPR*fP*m\[CapitalNu]) - aP\[CapitalNu]*c0*r + aPR*a\[CapitalNu]R*
+          b\[CapitalNu]R*(-c0 + fP)*k*r)/(aPR*a\[CapitalNu]R^2*b\[CapitalNu]R*
+         fP*k), P -> (c0*r)/(aPR*fP), e\[CapitalNu] -> 0, 
+      eP -> (aPR*fP*(-(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu]) + 
+           a\[CapitalNu]R*k*(-(a\[CapitalNu]R*b\[CapitalNu]R*mP) + 
+             aPR*bPR*m\[CapitalNu])) + aP\[CapitalNu]*
+          (-(aP\[CapitalNu]*bP\[CapitalNu]*c0) + aPR*a\[CapitalNu]R*
+            (bPR*c0 + bP\[CapitalNu]*b\[CapitalNu]R*(-c0 + fP))*k)*r)/
+        (aPR*a\[CapitalNu]R*bPR*fP*k*(aPR*fP*m\[CapitalNu] + 
+          aP\[CapitalNu]*c0*r))}, {R -> 0, \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 1}, {R -> -((-1 + c0)*k*r), 
+      \[CapitalNu] -> 0, P -> 0, e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R), 
+      \[CapitalNu] -> -((m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*
+           (-1 + c0)*k*r)/(a\[CapitalNu]R^2*b\[CapitalNu]R*k)), P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R), 
+      \[CapitalNu] -> (-(m\[CapitalNu]/(b\[CapitalNu]R*k)) + 
+         a\[CapitalNu]R*r)/a\[CapitalNu]R^2, P -> 0, e\[CapitalNu] -> 0, 
+      eP -> 0}, {R -> (k*(aPR*bP\[CapitalNu]*m\[CapitalNu] - 
+          aP\[CapitalNu]*bP\[CapitalNu]*(-1 + c0)*r + a\[CapitalNu]R*mP*
+           (-1 + fP*\[Phi])))/(aP\[CapitalNu]*bP\[CapitalNu] + 
+         aPR*a\[CapitalNu]R*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*k*
+          (-1 + fP*\[Phi])), \[CapitalNu] -> 
+       (aP\[CapitalNu]*(mP + aPR*bPR*(-1 + c0)*k*r) - 
+         aPR*k*(aPR*bPR*m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*mP*
+            (-1 + fP*\[Phi])))/(aP\[CapitalNu]*
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*k*(-1 + fP*\[Phi]))), 
+      P -> -((aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu] + 
+          a\[CapitalNu]R*k*(-1 + fP*\[Phi])*(aPR*bPR*m\[CapitalNu] - 
+            aP\[CapitalNu]*bP\[CapitalNu]*b\[CapitalNu]R*(-1 + c0)*r + 
+            a\[CapitalNu]R*b\[CapitalNu]R*mP*(-1 + fP*\[Phi])))/
+         (aP\[CapitalNu]*(aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+            (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*k*(-1 + fP*\[Phi])))), 
+      e\[CapitalNu] -> 1, eP -> 0}, 
+     {R -> m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R - 
+         a\[CapitalNu]R*b\[CapitalNu]R*fP*\[Phi]), 
+      \[CapitalNu] -> (-m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*
+          (-1 + c0)*k*r*(-1 + fP*\[Phi]))/(a\[CapitalNu]R^2*b\[CapitalNu]R*k*
+         (-1 + fP*\[Phi])^2), P -> 0, e\[CapitalNu] -> 1, eP -> 0}, 
+     {R -> -((k*r*(c0 + c0*\[Phi] - fP*\[Phi]))/(fP*\[Phi])), 
+      \[CapitalNu] -> (c0*r)/(a\[CapitalNu]R*fP*\[Phi]), 
+      P -> (c0*r)/(aPR*fP), e\[CapitalNu] -> 
+       -((aPR*fP*m\[CapitalNu]*\[Phi] + aP\[CapitalNu]*c0*r*\[Phi] + 
+          aPR*a\[CapitalNu]R*b\[CapitalNu]R*k*r*(c0 + c0*\[Phi] - fP*\[Phi]))/
+         (aPR*a\[CapitalNu]R*b\[CapitalNu]R*fP*k*r*\[Phi]*
+          (fP*\[Phi] - c0*(1 + \[Phi])))), 
+      eP -> (aP\[CapitalNu]*bP\[CapitalNu]*c0*r - a\[CapitalNu]R*
+          (fP*mP*\[Phi] + aPR*bPR*k*r*(c0 + c0*\[Phi] - fP*\[Phi])))/
+        (aPR*a\[CapitalNu]R*bPR*fP*k*r*(fP*\[Phi] - c0*(1 + \[Phi])))}, 
+     {R -> -((-1 + c0)*k*r), \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> (m\[CapitalNu] - a\[CapitalNu]R*b\[CapitalNu]R*k*r + 
+         a\[CapitalNu]R*b\[CapitalNu]R*c0*k*r)/
+        (-(a\[CapitalNu]R*b\[CapitalNu]R*fP*k*r*\[Phi]) + 
+         a\[CapitalNu]R*b\[CapitalNu]R*c0*fP*k*r*\[Phi]), 
+      eP -> 1 - 1/(fP*\[Phi]) + m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R*
+           fP*k*r*\[Phi] - a\[CapitalNu]R*b\[CapitalNu]R*c0*fP*k*r*\[Phi])}, 
+     {R -> (k*(-(aP\[CapitalNu]*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*
+            (-1 + c0)*r*\[Phi]) + aPR*bPR*m\[CapitalNu]*(1 + \[Phi] - 
+            fP*\[Phi]) + a\[CapitalNu]R*b\[CapitalNu]R*mP*\[Phi]*
+           (1 + \[Phi] - fP*\[Phi])))/(aP\[CapitalNu]*
+          (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*\[Phi] + 
+         aPR*a\[CapitalNu]R*bPR*b\[CapitalNu]R*k*(1 + \[Phi] - fP*\[Phi])^2), 
+      \[CapitalNu] -> (-(a\[CapitalNu]R*b\[CapitalNu]R*mP*\[Phi]) + 
+         aPR*bPR*(-m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*(-1 + c0)*k*
+            r*(-1 + (-1 + fP)*\[Phi])))/(a\[CapitalNu]R*
+         (aP\[CapitalNu]*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*\[Phi] + 
+          aPR*a\[CapitalNu]R*bPR*b\[CapitalNu]R*k*(1 + \[Phi] - fP*\[Phi])^
+            2)), P -> (\[Phi]*(-(a\[CapitalNu]R*b\[CapitalNu]R*mP*\[Phi]) + 
+          aPR*bPR*(-m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*(-1 + c0)*k*
+             r*(-1 + (-1 + fP)*\[Phi]))))/
+        (aPR*(aP\[CapitalNu]*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*\[Phi] + 
+          aPR*a\[CapitalNu]R*bPR*b\[CapitalNu]R*k*(1 + \[Phi] - fP*\[Phi])^
+            2)), e\[CapitalNu] -> 
+       (-(aP\[CapitalNu]*a\[CapitalNu]R*mP*\[Phi]) + aPR^2*a\[CapitalNu]R*bPR*
+          (-1 + fP)*k*m\[CapitalNu]*(-1 + (-1 + fP)*\[Phi]) + 
+         aPR*(-(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu]) + 
+           a\[CapitalNu]R*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP*
+              (-1 + (-1 + fP)*\[Phi]) + aP\[CapitalNu]*(-1 + c0)*r*
+              (-(bP\[CapitalNu]*b\[CapitalNu]R) + bPR*(-1 + fP)*\[Phi]))))/
+        (aPR*a\[CapitalNu]R*fP*k*(aPR*bPR*m\[CapitalNu]*
+           (-1 + (-1 + fP)*\[Phi]) + \[Phi]*(aP\[CapitalNu]*
+             (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + c0)*r + 
+            a\[CapitalNu]R*b\[CapitalNu]R*mP*(-1 + (-1 + fP)*\[Phi])))), 
+      eP -> (aP\[CapitalNu]*a\[CapitalNu]R*mP*\[Phi] + aPR^2*a\[CapitalNu]R*
+          bPR*k*m\[CapitalNu]*(-1 + (-1 + fP)*\[Phi]) + 
+         aPR*(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu] + 
+           a\[CapitalNu]R*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP*
+              (-1 + (-1 + fP)*\[Phi])*(-1 + fP*\[Phi]) + aP\[CapitalNu]*
+              (-1 + c0)*r*(bP\[CapitalNu]*b\[CapitalNu]R + bPR*\[Phi] - 
+               bP\[CapitalNu]*b\[CapitalNu]R*fP*\[Phi]))))/
+        (aPR*a\[CapitalNu]R*fP*k*(aPR*bPR*m\[CapitalNu]*
+           (-1 + (-1 + fP)*\[Phi]) + \[Phi]*(aP\[CapitalNu]*
+             (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + c0)*r + 
+            a\[CapitalNu]R*b\[CapitalNu]R*mP*(-1 + (-1 + fP)*\[Phi]))))}, 
+     {R -> (-(aP\[CapitalNu]*bP\[CapitalNu]*c0*r) + a\[CapitalNu]R*fP*mP*
+          \[Phi])/(aPR*a\[CapitalNu]R*bPR*fP*\[Phi]), 
+      \[CapitalNu] -> (c0*r)/(a\[CapitalNu]R*fP*\[Phi]), 
+      P -> (aP\[CapitalNu]*bP\[CapitalNu]*c0*r - a\[CapitalNu]R*
+          (fP*mP*\[Phi] + aPR*bPR*k*r*(c0 - fP*\[Phi])))/
+        (aPR^2*a\[CapitalNu]R*bPR*fP*k*\[Phi]), e\[CapitalNu] -> 
+       ((aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+            (-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k)/(aPR*a\[CapitalNu]R*fP*
+           k*\[Phi]) + (bPR*(-(a\[CapitalNu]R*mP) + aPR*bP\[CapitalNu]*
+             m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*r))/
+          (aP\[CapitalNu]*bP\[CapitalNu]*c0*r - a\[CapitalNu]R*fP*mP*\[Phi]))/
+        (bP\[CapitalNu]*b\[CapitalNu]R), eP -> 0}, 
+     {R -> k*r*(1 - c0/(fP*\[Phi])), \[CapitalNu] -> 
+       (c0*r)/(a\[CapitalNu]R*fP*\[Phi]), P -> 0, e\[CapitalNu] -> 
+       1/(fP*\[Phi]) + m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R*c0*k*r - 
+          a\[CapitalNu]R*b\[CapitalNu]R*fP*k*r*\[Phi]), eP -> 0}, 
+     {R -> 0, \[CapitalNu] -> mP/(aP\[CapitalNu]*bP\[CapitalNu]), 
+      P -> -(m\[CapitalNu]/aP\[CapitalNu]), e\[CapitalNu] -> 0, eP -> 0}, 
+     {R -> 0, \[CapitalNu] -> mP/(aP\[CapitalNu]*bP\[CapitalNu]), 
+      P -> -(m\[CapitalNu]/aP\[CapitalNu]), e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> 0, \[CapitalNu] -> mP/(aP\[CapitalNu]*bP\[CapitalNu]), 
+      P -> -(m\[CapitalNu]/aP\[CapitalNu]), e\[CapitalNu] -> 1, eP -> 0}, 
+     {R -> (k*(-(a\[CapitalNu]R*mP) + aPR*bP\[CapitalNu]*m\[CapitalNu] + 
+          aP\[CapitalNu]*bP\[CapitalNu]*r))/(aP\[CapitalNu]*bP\[CapitalNu] + 
+         aPR*a\[CapitalNu]R*(-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k), 
+      \[CapitalNu] -> (aPR*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP - 
+           aPR*bPR*m\[CapitalNu]) + aP\[CapitalNu]*(mP - aPR*bPR*k*r))/
+        (aP\[CapitalNu]*(aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k)), 
+      P -> (-(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu]) + 
+         a\[CapitalNu]R*k*(-(a\[CapitalNu]R*b\[CapitalNu]R*mP) + 
+           aPR*bPR*m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*
+            b\[CapitalNu]R*r))/(aP\[CapitalNu]*
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k)), e\[CapitalNu] -> 0, 
+      eP -> 0}, {R -> 0, \[CapitalNu] -> 0, P -> 0, e\[CapitalNu] -> 1, 
+      eP -> 0}, {R -> -((-1 + c0)*k*r), \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 1, eP -> 0}, {R -> 0, \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 0}}
+equil = {{R -> 0, \[CapitalNu] -> 0, P -> 0, eP -> 1 - e\[CapitalNu]}, 
+     {R -> -((-1 + c0)*k*r), \[CapitalNu] -> 0, P -> 0, 
+      eP -> 1 - e\[CapitalNu]}, {R -> mP/(aPR*bPR), \[CapitalNu] -> 0, 
+      P -> (-(mP/(bPR*k)) + aPR*r)/aPR^2, e\[CapitalNu] -> 0, eP -> 0}, 
+     {R -> mP/(aPR*bPR), \[CapitalNu] -> 0, 
+      P -> -((mP + aPR*bPR*(-1 + c0)*k*r)/(aPR^2*bPR*k)), e\[CapitalNu] -> 1, 
+      eP -> 0}, {R -> mP/(aPR*bPR - aPR*bPR*fP), \[CapitalNu] -> 0, 
+      P -> (-mP + aPR*bPR*(-1 + c0)*(-1 + fP)*k*r)/(aPR^2*bPR*(-1 + fP)^2*k), 
+      e\[CapitalNu] -> 0, eP -> 1}, {R -> -((-1 + c0)*k*r), 
+      \[CapitalNu] -> 0, P -> 0, e\[CapitalNu] -> 1 - fP^(-1) + 
+        mP/(aPR*bPR*fP*k*r - aPR*bPR*c0*fP*k*r), 
+      eP -> (1 - mP/(aPR*bPR*k*r - aPR*bPR*c0*k*r))/fP}, 
+     {R -> ((-c0 + fP)*k*r)/fP, \[CapitalNu] -> 0, P -> (c0*r)/(aPR*fP), 
+      e\[CapitalNu] -> 0, eP -> fP^(-1) + mP/(aPR*bPR*c0*k*r - 
+          aPR*bPR*fP*k*r)}, {R -> k*r, \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 0}, 
+     {R -> -((k*(a\[CapitalNu]R*mP + aPR*bP\[CapitalNu]*(-1 + fP)*
+            m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*(-1 + c0)*r))/
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + fP)*k)), 
+      \[CapitalNu] -> (-(aPR*(-1 + fP)*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP + 
+            aPR*bPR*(-1 + fP)*m\[CapitalNu])) + aP\[CapitalNu]*
+          (mP + aPR*bPR*(-1 + c0 + fP - c0*fP)*k*r))/(aP\[CapitalNu]*
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + fP)*k)), 
+      P -> -((aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu] + 
+          a\[CapitalNu]R*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP + 
+            aPR*bPR*(-1 + fP)*m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*
+             b\[CapitalNu]R*(-1 + c0)*r))/(aP\[CapitalNu]*
+          (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+            (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + fP)*k))), 
+      e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> (aPR*fP*m\[CapitalNu] + aP\[CapitalNu]*c0*r)/
+        (aPR*a\[CapitalNu]R*b\[CapitalNu]R*fP), \[CapitalNu] -> 
+       (-(aPR*fP*m\[CapitalNu]) - aP\[CapitalNu]*c0*r + aPR*a\[CapitalNu]R*
+          b\[CapitalNu]R*(-c0 + fP)*k*r)/(aPR*a\[CapitalNu]R^2*b\[CapitalNu]R*
+         fP*k), P -> (c0*r)/(aPR*fP), e\[CapitalNu] -> 0, 
+      eP -> (aPR*fP*(-(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu]) + 
+           a\[CapitalNu]R*k*(-(a\[CapitalNu]R*b\[CapitalNu]R*mP) + 
+             aPR*bPR*m\[CapitalNu])) + aP\[CapitalNu]*
+          (-(aP\[CapitalNu]*bP\[CapitalNu]*c0) + aPR*a\[CapitalNu]R*
+            (bPR*c0 + bP\[CapitalNu]*b\[CapitalNu]R*(-c0 + fP))*k)*r)/
+        (aPR*a\[CapitalNu]R*bPR*fP*k*(aPR*fP*m\[CapitalNu] + 
+          aP\[CapitalNu]*c0*r))}, {R -> 0, \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 1}, {R -> -((-1 + c0)*k*r), 
+      \[CapitalNu] -> 0, P -> 0, e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R), 
+      \[CapitalNu] -> -((m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*
+           (-1 + c0)*k*r)/(a\[CapitalNu]R^2*b\[CapitalNu]R*k)), P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R), 
+      \[CapitalNu] -> (-(m\[CapitalNu]/(b\[CapitalNu]R*k)) + 
+         a\[CapitalNu]R*r)/a\[CapitalNu]R^2, P -> 0, e\[CapitalNu] -> 0, 
+      eP -> 0}, {R -> (k*(aPR*bP\[CapitalNu]*m\[CapitalNu] - 
+          aP\[CapitalNu]*bP\[CapitalNu]*(-1 + c0)*r + a\[CapitalNu]R*mP*
+           (-1 + fP*\[Phi])))/(aP\[CapitalNu]*bP\[CapitalNu] + 
+         aPR*a\[CapitalNu]R*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*k*
+          (-1 + fP*\[Phi])), \[CapitalNu] -> 
+       (aP\[CapitalNu]*(mP + aPR*bPR*(-1 + c0)*k*r) - 
+         aPR*k*(aPR*bPR*m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*mP*
+            (-1 + fP*\[Phi])))/(aP\[CapitalNu]*
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*k*(-1 + fP*\[Phi]))), 
+      P -> -((aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu] + 
+          a\[CapitalNu]R*k*(-1 + fP*\[Phi])*(aPR*bPR*m\[CapitalNu] - 
+            aP\[CapitalNu]*bP\[CapitalNu]*b\[CapitalNu]R*(-1 + c0)*r + 
+            a\[CapitalNu]R*b\[CapitalNu]R*mP*(-1 + fP*\[Phi])))/
+         (aP\[CapitalNu]*(aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+            (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*k*(-1 + fP*\[Phi])))), 
+      e\[CapitalNu] -> 1, eP -> 0}, 
+     {R -> m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R - 
+         a\[CapitalNu]R*b\[CapitalNu]R*fP*\[Phi]), 
+      \[CapitalNu] -> (-m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*
+          (-1 + c0)*k*r*(-1 + fP*\[Phi]))/(a\[CapitalNu]R^2*b\[CapitalNu]R*k*
+         (-1 + fP*\[Phi])^2), P -> 0, e\[CapitalNu] -> 1, eP -> 0}, 
+     {R -> -((k*r*(c0 + c0*\[Phi] - fP*\[Phi]))/(fP*\[Phi])), 
+      \[CapitalNu] -> (c0*r)/(a\[CapitalNu]R*fP*\[Phi]), 
+      P -> (c0*r)/(aPR*fP), e\[CapitalNu] -> 
+       -((aPR*fP*m\[CapitalNu]*\[Phi] + aP\[CapitalNu]*c0*r*\[Phi] + 
+          aPR*a\[CapitalNu]R*b\[CapitalNu]R*k*r*(c0 + c0*\[Phi] - fP*\[Phi]))/
+         (aPR*a\[CapitalNu]R*b\[CapitalNu]R*fP*k*r*\[Phi]*
+          (fP*\[Phi] - c0*(1 + \[Phi])))), 
+      eP -> (aP\[CapitalNu]*bP\[CapitalNu]*c0*r - a\[CapitalNu]R*
+          (fP*mP*\[Phi] + aPR*bPR*k*r*(c0 + c0*\[Phi] - fP*\[Phi])))/
+        (aPR*a\[CapitalNu]R*bPR*fP*k*r*(fP*\[Phi] - c0*(1 + \[Phi])))}, 
+     {R -> -((-1 + c0)*k*r), \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> (m\[CapitalNu] - a\[CapitalNu]R*b\[CapitalNu]R*k*r + 
+         a\[CapitalNu]R*b\[CapitalNu]R*c0*k*r)/
+        (-(a\[CapitalNu]R*b\[CapitalNu]R*fP*k*r*\[Phi]) + 
+         a\[CapitalNu]R*b\[CapitalNu]R*c0*fP*k*r*\[Phi]), 
+      eP -> 1 - 1/(fP*\[Phi]) + m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R*
+           fP*k*r*\[Phi] - a\[CapitalNu]R*b\[CapitalNu]R*c0*fP*k*r*\[Phi])}, 
+     {R -> (k*(-(aP\[CapitalNu]*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*
+            (-1 + c0)*r*\[Phi]) + aPR*bPR*m\[CapitalNu]*(1 + \[Phi] - 
+            fP*\[Phi]) + a\[CapitalNu]R*b\[CapitalNu]R*mP*\[Phi]*
+           (1 + \[Phi] - fP*\[Phi])))/(aP\[CapitalNu]*
+          (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*\[Phi] + 
+         aPR*a\[CapitalNu]R*bPR*b\[CapitalNu]R*k*(1 + \[Phi] - fP*\[Phi])^2), 
+      \[CapitalNu] -> (-(a\[CapitalNu]R*b\[CapitalNu]R*mP*\[Phi]) + 
+         aPR*bPR*(-m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*(-1 + c0)*k*
+            r*(-1 + (-1 + fP)*\[Phi])))/(a\[CapitalNu]R*
+         (aP\[CapitalNu]*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*\[Phi] + 
+          aPR*a\[CapitalNu]R*bPR*b\[CapitalNu]R*k*(1 + \[Phi] - fP*\[Phi])^
+            2)), P -> (\[Phi]*(-(a\[CapitalNu]R*b\[CapitalNu]R*mP*\[Phi]) + 
+          aPR*bPR*(-m\[CapitalNu] + a\[CapitalNu]R*b\[CapitalNu]R*(-1 + c0)*k*
+             r*(-1 + (-1 + fP)*\[Phi]))))/
+        (aPR*(aP\[CapitalNu]*(bPR - bP\[CapitalNu]*b\[CapitalNu]R)*\[Phi] + 
+          aPR*a\[CapitalNu]R*bPR*b\[CapitalNu]R*k*(1 + \[Phi] - fP*\[Phi])^
+            2)), e\[CapitalNu] -> 
+       (-(aP\[CapitalNu]*a\[CapitalNu]R*mP*\[Phi]) + aPR^2*a\[CapitalNu]R*bPR*
+          (-1 + fP)*k*m\[CapitalNu]*(-1 + (-1 + fP)*\[Phi]) + 
+         aPR*(-(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu]) + 
+           a\[CapitalNu]R*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP*
+              (-1 + (-1 + fP)*\[Phi]) + aP\[CapitalNu]*(-1 + c0)*r*
+              (-(bP\[CapitalNu]*b\[CapitalNu]R) + bPR*(-1 + fP)*\[Phi]))))/
+        (aPR*a\[CapitalNu]R*fP*k*(aPR*bPR*m\[CapitalNu]*
+           (-1 + (-1 + fP)*\[Phi]) + \[Phi]*(aP\[CapitalNu]*
+             (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + c0)*r + 
+            a\[CapitalNu]R*b\[CapitalNu]R*mP*(-1 + (-1 + fP)*\[Phi])))), 
+      eP -> (aP\[CapitalNu]*a\[CapitalNu]R*mP*\[Phi] + aPR^2*a\[CapitalNu]R*
+          bPR*k*m\[CapitalNu]*(-1 + (-1 + fP)*\[Phi]) + 
+         aPR*(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu] + 
+           a\[CapitalNu]R*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP*
+              (-1 + (-1 + fP)*\[Phi])*(-1 + fP*\[Phi]) + aP\[CapitalNu]*
+              (-1 + c0)*r*(bP\[CapitalNu]*b\[CapitalNu]R + bPR*\[Phi] - 
+               bP\[CapitalNu]*b\[CapitalNu]R*fP*\[Phi]))))/
+        (aPR*a\[CapitalNu]R*fP*k*(aPR*bPR*m\[CapitalNu]*
+           (-1 + (-1 + fP)*\[Phi]) + \[Phi]*(aP\[CapitalNu]*
+             (bPR - bP\[CapitalNu]*b\[CapitalNu]R)*(-1 + c0)*r + 
+            a\[CapitalNu]R*b\[CapitalNu]R*mP*(-1 + (-1 + fP)*\[Phi]))))}, 
+     {R -> (-(aP\[CapitalNu]*bP\[CapitalNu]*c0*r) + a\[CapitalNu]R*fP*mP*
+          \[Phi])/(aPR*a\[CapitalNu]R*bPR*fP*\[Phi]), 
+      \[CapitalNu] -> (c0*r)/(a\[CapitalNu]R*fP*\[Phi]), 
+      P -> (aP\[CapitalNu]*bP\[CapitalNu]*c0*r - a\[CapitalNu]R*
+          (fP*mP*\[Phi] + aPR*bPR*k*r*(c0 - fP*\[Phi])))/
+        (aPR^2*a\[CapitalNu]R*bPR*fP*k*\[Phi]), e\[CapitalNu] -> 
+       ((aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+            (-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k)/(aPR*a\[CapitalNu]R*fP*
+           k*\[Phi]) + (bPR*(-(a\[CapitalNu]R*mP) + aPR*bP\[CapitalNu]*
+             m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*r))/
+          (aP\[CapitalNu]*bP\[CapitalNu]*c0*r - a\[CapitalNu]R*fP*mP*\[Phi]))/
+        (bP\[CapitalNu]*b\[CapitalNu]R), eP -> 0}, 
+     {R -> k*r*(1 - c0/(fP*\[Phi])), \[CapitalNu] -> 
+       (c0*r)/(a\[CapitalNu]R*fP*\[Phi]), P -> 0, e\[CapitalNu] -> 
+       1/(fP*\[Phi]) + m\[CapitalNu]/(a\[CapitalNu]R*b\[CapitalNu]R*c0*k*r - 
+          a\[CapitalNu]R*b\[CapitalNu]R*fP*k*r*\[Phi]), eP -> 0}, 
+     {R -> 0, \[CapitalNu] -> mP/(aP\[CapitalNu]*bP\[CapitalNu]), 
+      P -> -(m\[CapitalNu]/aP\[CapitalNu]), e\[CapitalNu] -> 0, eP -> 0}, 
+     {R -> 0, \[CapitalNu] -> mP/(aP\[CapitalNu]*bP\[CapitalNu]), 
+      P -> -(m\[CapitalNu]/aP\[CapitalNu]), e\[CapitalNu] -> 0, eP -> 1}, 
+     {R -> 0, \[CapitalNu] -> mP/(aP\[CapitalNu]*bP\[CapitalNu]), 
+      P -> -(m\[CapitalNu]/aP\[CapitalNu]), e\[CapitalNu] -> 1, eP -> 0}, 
+     {R -> (k*(-(a\[CapitalNu]R*mP) + aPR*bP\[CapitalNu]*m\[CapitalNu] + 
+          aP\[CapitalNu]*bP\[CapitalNu]*r))/(aP\[CapitalNu]*bP\[CapitalNu] + 
+         aPR*a\[CapitalNu]R*(-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k), 
+      \[CapitalNu] -> (aPR*k*(a\[CapitalNu]R*b\[CapitalNu]R*mP - 
+           aPR*bPR*m\[CapitalNu]) + aP\[CapitalNu]*(mP - aPR*bPR*k*r))/
+        (aP\[CapitalNu]*(aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k)), 
+      P -> (-(aP\[CapitalNu]*bP\[CapitalNu]*m\[CapitalNu]) + 
+         a\[CapitalNu]R*k*(-(a\[CapitalNu]R*b\[CapitalNu]R*mP) + 
+           aPR*bPR*m\[CapitalNu] + aP\[CapitalNu]*bP\[CapitalNu]*
+            b\[CapitalNu]R*r))/(aP\[CapitalNu]*
+         (aP\[CapitalNu]*bP\[CapitalNu] + aPR*a\[CapitalNu]R*
+           (-bPR + bP\[CapitalNu]*b\[CapitalNu]R)*k)), e\[CapitalNu] -> 0, 
+      eP -> 0}, {R -> 0, \[CapitalNu] -> 0, P -> 0, e\[CapitalNu] -> 1, 
+      eP -> 0}, {R -> -((-1 + c0)*k*r), \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 1, eP -> 0}, {R -> 0, \[CapitalNu] -> 0, P -> 0, 
+      e\[CapitalNu] -> 0, eP -> 0}}

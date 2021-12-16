@@ -1,0 +1,78 @@
+parsExcH = {r -> 1, k -> 2.5, c0 -> 0.4, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.4, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsExcM = {r -> 1, k -> 2.5, c0 -> 0.4, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.4, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.75}
+ 
+parsExcL = {r -> 1, k -> 2.5, c0 -> 0.4, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.4, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.45}
+ 
+parsFacP = {r -> 1, k -> 0.7, c0 -> 0.1, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.9, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.05, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsFacN = {r -> 1, k -> 0.28, c0 -> 0.125, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 1.7, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 1, bPR -> 0.5, mP -> 0.35, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsGoodH = {r -> 1, k -> 3, c0 -> 0.1, fP -> 0.6, aPR -> 1, 
+     aP\[CapitalNu] -> 0.8, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.4, mP -> 0.55, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsGoodM = {r -> 1, k -> 3, c0 -> 0.1, fP -> 0.6, aPR -> 1, 
+     aP\[CapitalNu] -> 0.8, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.4, mP -> 0.55, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.75}
+ 
+parsGoodL = {r -> 1, k -> 3, c0 -> 0.1, fP -> 0.6, aPR -> 1, 
+     aP\[CapitalNu] -> 0.8, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.4, mP -> 0.55, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.5}
+parsExcH = {r -> 1, k -> 2.5, c0 -> 0.4, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.4, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsExcM = {r -> 1, k -> 2.5, c0 -> 0.4, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.4, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.75}
+ 
+parsExcL = {r -> 1, k -> 2.5, c0 -> 0.4, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.4, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.45}
+ 
+parsFacP = {r -> 1, k -> 0.7, c0 -> 0.1, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 0.9, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.5, mP -> 0.5, m\[CapitalNu] -> 0.05, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsFacN = {r -> 1, k -> 0.28, c0 -> 0.125, fP -> 0.8, aPR -> 0.9, 
+     aP\[CapitalNu] -> 1.7, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 1, bPR -> 0.5, mP -> 0.35, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsGoodH = {r -> 1, k -> 3, c0 -> 0.1, fP -> 0.6, aPR -> 1, 
+     aP\[CapitalNu] -> 0.8, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.4, mP -> 0.55, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 1}
+ 
+parsGoodM = {r -> 1, k -> 3, c0 -> 0.1, fP -> 0.6, aPR -> 1, 
+     aP\[CapitalNu] -> 0.8, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.4, mP -> 0.55, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.75}
+ 
+parsGoodL = {r -> 1, k -> 3, c0 -> 0.1, fP -> 0.6, aPR -> 1, 
+     aP\[CapitalNu] -> 0.8, a\[CapitalNu]R -> 0.8, bP\[CapitalNu] -> 0.5, 
+     b\[CapitalNu]R -> 0.9, bPR -> 0.4, mP -> 0.55, m\[CapitalNu] -> 0.1, 
+     v -> 1, \[Phi] -> 0.5}

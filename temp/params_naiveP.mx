@@ -1,0 +1,38 @@
+parsCoexH = {r -> 1, k -> 5, c0 -> 0.25, f\[CapitalNu] -> 0.8, fP -> 0.8, 
+     aPR -> 0.9, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.5, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.2, v -> 1, \[Rho] -> 1}
+ 
+parsCoexM = {r -> 1, k -> 5, c0 -> 0.25, f\[CapitalNu] -> 0.8, fP -> 0.8, 
+     aPR -> 0.9, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.5, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.2, v -> 1, \[Rho] -> 0.75}
+ 
+parsCoexL = {r -> 1, k -> 5, c0 -> 0.25, f\[CapitalNu] -> 0.8, fP -> 0.8, 
+     aPR -> 0.9, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.5, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.2, v -> 1, \[Rho] -> 0.5}
+ 
+parsStab\[Rho] = {r -> 0.9, k -> 5, c0 -> 0.1, f\[CapitalNu] -> 0.7, 
+     fP -> 0.7, aPR -> 0.5, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.6, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.25, v -> 1}
+parsCoexH = {r -> 1, k -> 5, c0 -> 0.25, f\[CapitalNu] -> 0.8, fP -> 0.8, 
+     aPR -> 0.9, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.5, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.2, v -> 1, \[Rho] -> 1}
+ 
+parsCoexM = {r -> 1, k -> 5, c0 -> 0.25, f\[CapitalNu] -> 0.8, fP -> 0.8, 
+     aPR -> 0.9, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.5, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.2, v -> 1, \[Rho] -> 0.75}
+ 
+parsCoexL = {r -> 1, k -> 5, c0 -> 0.25, f\[CapitalNu] -> 0.8, fP -> 0.8, 
+     aPR -> 0.9, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.5, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.2, v -> 1, \[Rho] -> 0.5}
+ 
+parsStab\[Rho] = {r -> 0.9, k -> 5, c0 -> 0.1, f\[CapitalNu] -> 0.7, 
+     fP -> 0.7, aPR -> 0.5, aP\[CapitalNu] -> 1.2, a\[CapitalNu]R -> 0.8, 
+     bP\[CapitalNu] -> 0.6, b\[CapitalNu]R -> 0.7, bPR -> 0.5, mP -> 0.5, 
+     m\[CapitalNu] -> 0.25, v -> 1}

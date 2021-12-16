@@ -3122,3 +3122,5 @@ Fig3bReg = Graphics[{GraphicsComplex[{{0.26315791966759,
         "AxesInFront" -> True}, PlotRange -> {{0, 1}, {0, 2}}, 
       PlotRangeClipping -> True, PlotRangePadding -> {Automatic, Automatic}, 
       Ticks -> {Automatic, Automatic}}]
+
+
